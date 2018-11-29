@@ -1,0 +1,35 @@
+Sistema Gestão de Restaurante Universitário - UFMT
+
+Gestão Vendas
+
+Controle de Vendas
+O usuário acessa o aplicativo via mobile ou internet e efetua a compra de saldo; 
+Liberação
+Ao acessar o Restaurante o usuário apresenta-se com a digital que é validada pelo sistema. 
+Controle de alunos Ativos na UFMT
+O sistema irá consultar no cadastro da UFMT se o Aluno é um aluno ativo, ou seja, se está estudando na UFMT. Isso deve ser feito a partir de um pré-cadastro.
+Controle de Funcionários
+O sistema irá registrar e consultar se os usuários é funcionário da UFMT ou Terceirizado.
+
+Gestão de Informação
+
+Controle de Lotação em Tempo Real
+Com este recurso o sistema informará quantos estão presentes no momento no restaurante, dando a visão de lotação do restaurante.
+Controle de Cardápio
+Será disponibilizado semanalmente o cardápio. O sistema não deve controlar a qualidade dessa informação.
+Controle de satisfação de usuário
+Será disponibilizado um formulário on-line para registro e terá divulgação dos resultados pelo sistema
+
+
+
+Regras de Negócio
+1.	Venda exclusiva para clientes de Pessoa Física;
+2.	Venda para alunos da UFMT, Servidores da UFMT e visitantes;
+3.	No momento do cadastro de um cliente, será realizada uma consulta na base de dados da UFMT para validar os dados cadastrais de alunos e servidores;
+4.	O aluno ou servidor que não estiver ativo na UFMT (exemplos: curso trancado, desistência, desligamento ou em licença) não poderá acessar o movimento como aluno ou servidor, mas poderá acessar como visitante;
+5.	Tipos de pagamentos aceitos: à vista em dinheiro, cartão de débito ou crédito;
+6.	Haverão valores diferenciados apenas para alunos e servidores ativos da UFMT;
+7.	Prazo máximo de quatro anos para uso dos créditos;
+8.	Limites de vendas: haverá um limite máximo de saldo que será calculado através da soma do valor de três refeições diárias(café, almoço e jantar) em um período de um mês (22 dias), e um prazo de expiração de quatro anos a partir da data e compra. Após a expiração dos créditos o valor não será reembolsado;
+9.	Não será feita a devolução de saldo.
+10.	Os usuários terão direito a três refeições distintas por dia: café da manhã, almoço e jantar. Não poderão repetir refeição no mesmo movimento.
