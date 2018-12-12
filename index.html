@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+
+<html class="ui-mobile">
+
+<head>
+  <title>RU - UFMT</title>
+  
+  			<meta http-equiv="Content-Security-Policy" content="script-src 'self'  'unsafe-inline' 'unsafe-eval'" >
+			<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+			<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>			
+			<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">	
+			<link rel="stylesheet" type="text/css" href="css/themes/jquery.mobile.icons.min">	
+			<link rel="stylesheet" type="text/css" href="css/confstylo.css">			
+			<script src="js/jquery-3.2.1.min.js"></script>			
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+			<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>	
+			<script src="js/cadassincrono.js"></script>	
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+			<link rel="stylesheet" href="/resources/demos/style.css">
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  
+  <style>
+ 
+  </style>
+</head>
+
+<body class="ui-mobile-viewport ui-overlay-a">
+<div data-role="header" data-position="fixed" data-theme="a" role="banner" class="ui-header ui-bar-a ui-header-fixed slidedown">
+	<?php
+	echo("Bem vindo!");
+	?>
+</div>
+
+<div data-role="page" class="ui-field-contain" ">
+	
+		<img src="img/anonimo.png"
+		width="125" height="125" style="border: 0;
+		 alt="Usuario anonimo">  
+	
+		<form method="post" id="logar" name="logar" action="logar.php" target="_self">
+		
+			<label>Nome:</label>
+			 <input id="usuario" name="usuario" type="text" tabindex="0" maxlength="30" placeholder="Nome.Sobrenome"><br/>
+			<label>Senha:</label>
+			<input id="senha" name="senha" type="password" tabindex="0" maxlength="30" placeholder="********"><br/>
+			<input id="lembrar" name="lembrar" type="radio" value="" checked="checked">Lembre-me</input>
+			<p></p>
+			<button data-icon="home" id="enviar" name="enviar" type="submit">Emtrar</button><br/>
+			<p></p>
+			<button data-icon="home	" data-rel="dialog" id="cancel" name="cancel" type="btn">Cancelar</button><br/>
+		</form>
+	
+</div>
+</body>
+</html>
