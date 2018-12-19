@@ -72,19 +72,50 @@ if((!isset ($_SESSION['usuario']) === true) and (!isset ($_SESSION['senha']) ===
 			<div data-role="navbar">
                 <ul>
 					<li><a href="#pg-principal" data-transition="pop" data-icon="home" class="ui-btn-active ui-state-persist">Principal</a></li>
-					<li><a href="#pg-" data-transition="fade" data-icon="tag">Outrapagina</a></li>					
+					<li><a href="#pg-criarvenda" data-transition="fade" data-icon="tag">Comprar</a></li>					
                 </ul>
             </div> 
 	</div>
 	
-<div data-role="page" id="pg-principal">
-		
+<div data-role="page" id="pg-criarvenda">			
+	<div data-role="footer" >
+            <h4>AppRU-UFMT</h4>										
+	</div>
+	<div data-role="content" >
+		<form method="POST" id="criarvenda" action="vender.php"  enctype="multipart/form-data" target="_self">	
+			<label for="valordavenda">Valor R$</label>
+			<input type="number" name="valorvenda" id="valorvenda" placeholder="0.000,00" size="20" />
+			<br class="block" />
+			<fieldset name="criarvendatipopag">
+			<legend>Tipo Pagamento:</legend>												
+				<select form="criarvenda" class="form-control" name="tipopag">
+					<label for="tipopag">Selecione a Forma de pagamento:</label>
+					<option name="opt0" id="opt0" selected value="1">Debito Automatico</option>
+					<option name="opt1" id="opt1" value="2">Cartão Credito</option>							
+				</select>
+			</fieldset>	
+		</form>
+	</div>
+	<div data-role="footer">       
+            <h4>@APSII Empreendimentos</h4>
+        </div> 
+
+
+	</div>	
 	
-		<div data-role="footer" >
+	<div data-role="page" id="pg-principal">		
+	<div data-role="footer" >
             <h4>AppRU-UFMT</h4>										
 		</div>
 		<div data-role="footer" >
-            <h4>Vai os icones de na vegacao</h4>										
+           <div data-role="content" >
+                    <h4>Vai</h4>
+                    
+                    <div style="position: relative; left: 10%; top: 40%; width: 30px; border-color: blue;" class="ui-icon-home">Icone 1</div>
+                    <div style="position: relative; left: 70%; top: 40%; width: 30px; border-color: blue;">Icone 2</div>
+                    <div style="position: relative; left: 40%; top: 10%; width: 30px; border-color: blue;"> Icone 3</div>
+                    <div style="position: relative; left: 40%; top: 80%; width: 30px; border-color: blue;">Icone 4</div>
+		</div>									
 		</div>
 		<div data-role="footer">       
             <h4>@APSII Empreendimentos</h4>
@@ -92,7 +123,6 @@ if((!isset ($_SESSION['usuario']) === true) and (!isset ($_SESSION['senha']) ===
 
 
 	</div>	
-
 
 
 
@@ -105,16 +135,16 @@ if((!isset ($_SESSION['usuario']) === true) and (!isset ($_SESSION['senha']) ===
 						<div style="pading: 5px;" class="ui-controlgroup-label">
 							<ul data-role="listview" class="ui-listview ui-page-theme-a">
 								<li class="ui-li-static ui-body-inherit">
-								<a href="#pg-relatorioU"><span class="ui-icon ui-icon-arrowthick-1-n" style="margin: 3px 0 0 4px;"></span>Relatorios Usuarios</a></li>
+								<a href="#pg-relatorios"><span class="ui-icon ui-icon-arrowthick-1-n" style="margin: 3px 0 0 4px;"></span>RIndicadores de Qualidade</a></li>
 								
 								<li class="ui-li-static ui-body-inherit">
-								<a href="#pg-relatorioRNC"><span class="ui-icon ui-icon-arrowthick-1-n" style="margin: 3px 0 0 4px;"></span>Relatorio RNC</a></li>
+								<a href="#pg-Consultas"><span class="ui-icon ui-icon-arrowthick-1-n" style="margin: 3px 0 0 4px;"></span>Consulta Cardapio</a></li>
 							</ul>
 						</div>									
 				
 			</ul>
 		</div>		
-	</div name="esq" >
+</div name="esq" >
 <div class="ui-loader ui-corner-all ui-body-a ui-loader-default"></div>
 <div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div>	
 
