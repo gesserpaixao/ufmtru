@@ -21,10 +21,14 @@ $VerficarErro = 0;
 			echo "<p><a href='index.html'>  Voltar Erro--></a>";
 		}	
 if($VerficarErro == 0) {
+
+include 'conexao.inc.php';
+//   $connru = mysqli_connect
+//("localhost","ufmtru","bLHpejBv");
+//mysqli_select_db($connru,"ufmtru");
+
 		
-		include 'conexao.inc';
-		
-		$Verifica = ("SELECT * FROM `tb_usuarios` WHERE `usuario` = '$usuario' AND `senha` = '$senha'");
+		$Verifica = ("SELECT * FROM `tb_usuario` WHERE `usuario` = '$usuario' AND `senha` = '$senha'");
 		$result = mysqli_query($connru,$Verifica);
 				
 		if(mysqli_num_rows ($result) > 0 )

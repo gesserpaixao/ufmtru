@@ -687,8 +687,7 @@ html .ui-car-c .ui-radio-on:after,
 html .ui-cody-c .ui-radio-on:after,	
 html body .ui-group-theme-c .ui-radio-on:after,	
 .ui-ctn.ui-radio-on.ui-ctn-c:after {	
-	border-color:
-}	
+	}	
 /* Focus */	
 .ui-page-theme-c .ui-ctn:focus,	
 html .ui-car-c .ui-ctn:focus,	

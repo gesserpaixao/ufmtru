@@ -22,6 +22,8 @@
 			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 			<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 			<link rel="stylesheet" href="/resources/demos/style.css">
+                        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+
 			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -39,23 +41,24 @@
 	?>
 </div>
 
-<div data-role="page" class="ui-field-contain" ">
+<div data-role="page" class="ui-field-contain">
 	
 		<img src="img/anonimo.png"
-		width="125" height="125" style="border: 0;
-		 alt="Usuario anonimo">  
+		width="125" height="125"
+		 alt="Usuario anonimo" style="border: 0;position: relative; top:30%; left: 40%;">  
 	
-		<form method="post" id="logar" name="logar" action="logar.php" target="_self">
-		
-			<label>Nome:</label>
-			 <input id="usuario" name="usuario" type="text" tabindex="0" maxlength="30" placeholder="Nome.Sobrenome"><br/>
+		<form method="post" id="logar" name="logar" action="logar.php" target="_self" style="">				
+			<input id="usuario" name="usuario" type="text" tabindex="0" maxlength="30" placeholder="Nome.Sobrenome"><br/>
 			<label>Senha:</label>
 			<input id="senha" name="senha" type="password" tabindex="0" maxlength="30" placeholder="********"><br/>
-			<input id="lembrar" name="lembrar" type="radio" value="" checked="checked"></input><span>Lembre-me<span><br/>
+                        <div data-role="content">
+                            &nbsp<label>Lembre - me: </label>
+                            <input id="lembrar"  name="lembrar" type="radio" value="" checked="" />
+                        </div>
+			<p>
+			<button data-icon="home" id="enviar" name="enviar" type="btn">Entrar</button><br/>
 			<p></p>
-			<button data-icon="home" id="enviar" name="enviar" type="submit">Emtrar</button><br/>
-			<p></p>
-			<button data-icon="home	" data-rel="dialog" id="cancel" name="cancel" type="btn">Cancelar</button><br/>
+			<button data-icon="home" id="cancel" name="cancel" type="btn">Cancelar</button><br/>
 		</form>
 	
 </div>

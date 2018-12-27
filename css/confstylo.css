@@ -1,0 +1,122 @@
+		table, td, th {border: 1px solid blue;}
+		tr:hover {background-color: #f5f5f5;}
+		tr:nth-child(even) {background-color: #f2f2f2;}
+		table {border-collapse:collapse; width: 100%;}
+		th {height: 20px;background-color: #1FCAF5;color: white;}
+		
+		.fotoavatar{
+			border: 0px; 
+			border-radius: 50%;
+			align-top:50%;
+			text-algn:center;
+			position: absolute; 
+				top: 05px;
+				left: 38px;
+				}
+			.container {
+			  border: 0px; 
+						border-radius: 50%;
+						align-top:50%;
+						text-algn:center;
+						position: absolute; 
+							top: 25px;
+							left: 26px;
+			}
+
+			.imageavatar {
+			  display: block;
+			  border-radius: 50%;
+			  width: 35px;
+			  height: 35px;
+			}
+
+			.overlay {
+			  position: absolute;
+				top: 5px;
+				bottom: 0;
+				left: 45px;
+				right: 0;
+				height: 15%;
+			   opacity: 0;
+				width: 5%;
+				transition: .5s ease;
+			  
+			}
+
+			.container:hover .overlay {
+			  opacity: 1;
+			}
+
+			.text {
+			  color: black;
+			  font-size: 15px;
+			  position: absolute;
+				top: 5%;
+				left: 15%;
+			  transform: translate(-20%, -20%);
+			  -ms-transform: translate(-20%, -20%);
+			}
+			
+			
+.boxcontainer {
+  position: relative;
+  width: 40%;
+  left: 25%;
+}
+
+.imagebox {
+  display: block;
+  width: 100%;
+  
+}
+
+.overlaybox {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.boxcontainer:hover .overlaybox {
+  bottom: 0;
+  height: 80%;
+  opacit: 1;
+}
+
+.textbox {
+  white-space: nowrap; 
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+#boxfloatbtn{
+text-decoration: none;
+background: rgba(30,156,161,.9);
+bottom: 30px;
+right: 30px;
+color: #fff;
+text-align: center;
+cursor: pointer;
+padding: 15px;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+position: fixed;
+border: 0;
+font-family: sans-serif;
+opacity: .8;
+}
+
