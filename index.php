@@ -267,6 +267,6 @@ if((!isset ($_SESSION['usuario']) === true) and (!isset ($_SESSION['senha']) ===
 <div class="ui-loader ui-corner-all ui-body-a ui-loader-default"></div>
 <div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div>	
 
-
+<!--teste do git-->
 </body>
 </html
