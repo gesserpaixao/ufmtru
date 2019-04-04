@@ -109,13 +109,13 @@ return [
 
     'menu' => [
         //'MENU',
-        [
+       /* [
             'text' => 'Blog',
             'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
+            'can'  => 'authadmin',
+        ],*/
         [
-            'text' => 'Home',
+            'text' => 'HOME',
             'url'  => 'admin',
             'icon' => 'home',
             
@@ -158,27 +158,37 @@ return [
         ],
         [
             'text' => 'Avaliar',
-            'url'  => 'admin',
+            'url'  => 'admin/avaliar',
             'icon' => 'commenting',
             
         ],
-        'ADMINSTRADOR',
+        
         [
+            'can' => 'authadmin',
+            'text' => 'ADMINSTRADOR',
+            
+            
+        ],
+        
+        [
+            
+            'can'  => 'authadmin',
             'text' => 'Cadastrar',
             'icon' => 'file-text-o',
             'submenu' =>[
                 [
                     'text' => 'Administrador',
-                    'url'  => 'admin/Cadastro', //add por @tiago, caminho para a viewr de cadastro.
+                    'url'  => 'admin/cadastro', //add por @tiago, caminho para a viewr de cadastro.
                     'icon' => 'user-plus',
                     
                 ],
                 [
                     'text' => 'cardápio',
-                    'url'  => 'admin/addcardapio',
+                    'url'  => 'importExport',
                     'icon' => 'calendar-o',
                     
                 ],
+				
 
 
             ]
@@ -186,17 +196,38 @@ return [
         ],
         
         [
+            'can' => 'authadmin',
             'text' => 'Relatório',
             'icon' => 'pie-chart',
             'submenu' => [
                 [
                     'text' => 'Financeiro',
-                    'url'  => 'admin',
+                    'url'  => 'admin/relatorio',
                     'icon' => 'line-chart',
                     
                 ],
 
+                [
+                    'text' => 'Avaliar',
+                    'url'  => 'admin/relatorio/avaliar',
+                    'icon' => ' fa fa-edit',
+                    
+                ],
+				[
+                    'text' => 'Indicadores',
+                    'url'  => '..\grafico.php',
+                    'icon' => 'fa fa-bar-chart',
+                    
+                ],
+                [
+                    'text' => 'Debitar',
+                    'url'  => 'admin/balance/sacar',
+                    'icon' => ' fa fa-money',
+                    
+                ],
+
             ]
+            
         ],
        
        
