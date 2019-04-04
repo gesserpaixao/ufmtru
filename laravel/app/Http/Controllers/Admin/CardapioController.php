@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Item;
+use App\Http\Controllers\MaatwebsiteDemoController;
+
 
 class CardapioController extends Controller
 {
@@ -12,9 +15,17 @@ class CardapioController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    
+
     public function index()
     {
-        return view('admin.consulta.cardapio');
+        $itemsshow = \App\Item::limit(5)->orderBy('id','DESC')->get();
+        
+    
+
+        return /*dd ($itemsshow);//*/view('admin.consulta.cardapio', compact('itemsshow'));
+    
     }
 
     /**
@@ -82,4 +93,5 @@ class CardapioController extends Controller
     {
         //
     }
+
 }

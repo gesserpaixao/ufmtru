@@ -7,6 +7,7 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use App\Models\Balance;
 use App\Models\Historic;
+use App\Http\Controllers\Admin\Relatorio;
 
 class User extends Authenticatable
 {
@@ -18,7 +19,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'cpf', 'email','categoria','password','isadmin',
+        'id','name', 'cpf', 'email','categoria','password','isadmin',
     ];
 
     /**
@@ -41,4 +42,37 @@ class User extends Authenticatable
         return $this->hasMany(Historic::class);
 
     }
+
+    public function isAdmin() // add por tiago para mostrar viewer para autorizados
+    {
+    return $this->is_admin;
+    }
+
+    public function avaliars()
+    {
+        return $this->hasMany(Avaliar::class);
+
+    }
+
+        public function atualiza($id)
+    {
+        dd($flight = User::find($id));
+        //$flight = User::find($id)->roles->toArray();
+
+        $flight->isadmin = '1';
+
+        $flight->save();
+    }
+
+       /* $users = users::findOrFail('p_nome');
+       $p_nome = $request->input('p_nome');
+
+       $usersup = DB::table('users')
+       ->where('name', 'like',  "%" . $p_nome)
+       ->get();
+        $usersup->isadmin  = '1';
+        
+        $usersup->save();
+        return redirect()->route('cadastroup')->with('message', 'Administrador cadastrado com sucesso');
+}*/
 }

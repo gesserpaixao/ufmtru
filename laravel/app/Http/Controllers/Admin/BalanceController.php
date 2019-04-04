@@ -39,6 +39,29 @@ class BalanceController extends Controller
 
     }
 
+    public function sacarindex()
+    {
+        return view('admin.balance.sacar');
+    }
+
+
+    public function sacar(MoneyValidationFormRequest $request)
+    {
+       $balance = auth()->user()->balance()->firstOrCreate([]);
+       $response = $balance->sacar($request->value);
+
+       if ($response['success'])
+        return redirect()
+            ->route('admin.balance.index')
+            ->with('success', $response['message']);
+
+        return redirect()
+            ->back()
+            ->with('error', $response['message']);
+
+    }
+
+
     public function historic()
     {
         $historics = auth()->user()->historics()->paginate($this->totalPage);

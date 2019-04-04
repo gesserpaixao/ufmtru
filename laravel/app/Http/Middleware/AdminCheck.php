@@ -22,7 +22,7 @@ class AdminCheck
             return $next($request);
         }else{
         
-            return redirect()->view('admin.home.index');
+            return redirect('/admin');;
         }
     }
 }

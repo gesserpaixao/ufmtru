@@ -14,7 +14,7 @@ class Historic extends Model
     {
         $types = [
             'I'=> 'Entrada',
-            'O'=> 'Saque',
+            'O'=> 'Saida',
             'T' => 'Transferência',
 
         ];
@@ -26,6 +26,7 @@ class Historic extends Model
 
     }
 
+    
     public function getDateAttribute($value)
     {
         return Carbon::parse($value)->format('d/m/y');
