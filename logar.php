@@ -23,9 +23,7 @@ $VerficarErro = 0;
 if($VerficarErro == 0) {
 
 include 'conexao.inc.php';
-//   $connru = mysqli_connect
-//("localhost","ufmtru","bLHpejBv");
-//mysqli_select_db($connru,"ufmtru");
+
 
 		
 		$Verifica = ("SELECT * FROM `tb_usuario` WHERE `usuario` = '$usuario' AND `senha` = '$senha'");
