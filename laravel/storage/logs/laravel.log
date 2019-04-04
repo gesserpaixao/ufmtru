@@ -1,0 +1,395 @@
+[2019-01-30 03:06:40] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:06:40] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:06:59] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:06:59] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:07:14] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:07:14] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:07:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:07:49] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:07:51] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:07:51] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:08:21] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:08:21] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:08:23] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:08:23] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-30 03:08:27] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-30 03:08:27] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:224)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-31 02:47:47] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-31 02:47:47] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:273)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-31 02:48:33] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-31 02:48:33] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:273)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-31 02:49:27] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-31 02:49:27] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:274)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-01-31 03:03:19] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-31 03:03:19] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:245)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-02-10 16:22:16] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-10 16:22:16] laravel.ERROR: syntax error, unexpected 'if' (T_IF) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'if' (T_IF) at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:147)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-02-10 16:23:04] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-10 16:23:04] laravel.ERROR: syntax error, unexpected 'if' (T_IF), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'if' (T_IF), expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:147)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-02-10 16:26:13] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-10 16:26:13] laravel.ERROR: syntax error, unexpected 'if' (T_IF) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'if' (T_IF) at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:147)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-02-10 18:25:35] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-10 18:25:35] laravel.ERROR: syntax error, unexpected 'if' (T_IF), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'if' (T_IF), expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:123)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-02-10 19:49:11] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-10 19:49:11] laravel.ERROR: syntax error, unexpected 'if' (T_IF), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'if' (T_IF), expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\adminlte.php:123)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ufmt-ru\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2019-02-18 04:03:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\laragon\\www\\ufmt-ru\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(353): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(132): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\laragon\\www\\ufmt-ru\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-02-18 04:03:34] laravel.ERROR: syntax error, unexpected 'App' (T_STRING), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'App' (T_STRING), expecting ']' at C:\\laragon\\www\\ufmt-ru\\config\\app.php:173)
+[stacktrace]
+#0 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\laragon\\www\\ufmt-ru\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 C:\\laragon\\www\\ufmt-ru\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
