@@ -16,10 +16,22 @@ class CreateItemsTable extends Migration
         Schema::create('items', function (Blueprint $table) {
 
             $table->increments('id');
+
+            $table->text('cafe')->nullable();
+
+            $table->text('almoco')->nullable();
+
+            $table->text('jantar')->nullable();
+
+            $table->text('almoco_vegetariano')->nullable();
+
+            $table->text('jantar_vegetariano')->nullable();
  
-            $table->string('title');
+            //$table->string('title')->nullable();   
  
-            $table->text('description');
+           // $table->text('description')->nullable();
+
+            $table->date('data')->nullable();
  
             $table->timestamps();
  

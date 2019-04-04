@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('cpf')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->enum('categoria',['Vizitante','Servidor','Aluno']);
+            $table->enum('categoria',['Visitante','Servidor','Aluno']);
             $table->boolean('isadmin')-> default(false);
             $table->rememberToken(); 
             $table->timestamps();
