@@ -29,7 +29,7 @@
                         <div class="icon">
                           <i class="ion ion-cash"></i>
                         </div>
-                        <a href="historic" class="small-box-footer">Histórico <i class="fa fa-arrow-circle-right"></i></a>
+                        <a href="/admin/historic" class="small-box-footer">Histórico <i class="fa fa-arrow-circle-right"></i></a>
                       </div>
         </div>  
     </div>
