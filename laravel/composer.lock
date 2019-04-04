@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb88e5cfc85224451bedf3851013ade0",
+    "content-hash": "a37e4628bf91c1e29df237a94cb0bbaa",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -38,6 +38,76 @@
             ],
             "description": "implementation of xdg base directory specification for php",
             "time": "2014-10-24T07:27:01+00:00"
+        },
+        {
+            "name": "doctrine/collections",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "d2ae4ef05e25197343b6a39bae1d3c427a2f6956"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/d2ae4ef05e25197343b6a39bae1d3c427a2f6956",
+                "reference": "d2ae4ef05e25197343b6a39bae1d3c427a2f6956",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0",
+                "phpstan/phpstan-shim": "^0.9.2",
+                "phpunit/phpunit": "^7.0",
+                "vimeo/psalm": "^3.2.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Collections\\": "lib/Doctrine/Common/Collections"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Collections library that adds additional functionality on top of PHP arrays.",
+            "homepage": "https://www.doctrine-project.org/projects/collections.html",
+            "keywords": [
+                "array",
+                "collections",
+                "iterators",
+                "php"
+            ],
+            "time": "2019-03-25T19:03:48+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -365,6 +435,137 @@
                 "trusted proxy"
             ],
             "time": "2019-01-10T14:06:47+00:00"
+        },
+        {
+            "name": "guiassemany/laravel-pagseguro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guiassemany/laravel-pagseguro.git",
+                "reference": "d4940970df6c265f03ed7b0cb9d78b6e4cc83bee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guiassemany/laravel-pagseguro/zipball/d4940970df6c265f03ed7b0cb9d78b6e4cc83bee",
+                "reference": "d4940970df6c265f03ed7b0cb9d78b6e4cc83bee",
+                "shasum": ""
+            },
+            "require": {
+                "phpsc/pagseguro": "1.0.0alpha7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GuiAssemany\\LaravelPagSeguro\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Assemany",
+                    "email": "guilherme@assemany.com",
+                    "homepage": "http://www.assemany.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adaptação da API de integração com o PagSeguro: phpsc/pagseguro para o Laravel 5.",
+            "time": "2016-05-30T13:19:53+00:00"
+        },
+        {
+            "name": "guzzle/guzzle",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "<2.3",
+                "zendframework/zend-log": "<2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "abandoned": "guzzlehttp/guzzle",
+            "time": "2014-01-28T22:29:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1860,6 +2061,59 @@
             ],
             "abandoned": "phpoffice/phpspreadsheet",
             "time": "2018-11-22T23:07:24+00:00"
+        },
+        {
+            "name": "phpsc/pagseguro",
+            "version": "1.0.0alpha7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPSC/pagseguro.git",
+                "reference": "8159d330e6d81c459c5b5f16c73a9f0f871e63cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPSC/pagseguro/zipball/8159d330e6d81c459c5b5f16c73a9f0f871e63cf",
+                "reference": "8159d330e6d81c459c5b5f16c73a9f0f871e63cf",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "~1.2@dev",
+                "guzzle/guzzle": "~3.8",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "pdepend/pdepend": "~2.0",
+                "phpunit/phpunit": "*",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPSC\\PagSeguro\\": [
+                        "src",
+                        "test"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-SA-2.5"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com"
+                }
+            ],
+            "description": "Client para integração com API do Pagseguro",
+            "keywords": [
+                "Notificacao",
+                "Pagamento",
+                "Pagseguro",
+                "api"
+            ],
+            "time": "2014-08-11T23:53:21+00:00"
         },
         {
             "name": "psr/container",
@@ -5298,7 +5552,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "guiassemany/laravel-pagseguro": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
