@@ -1,6 +1,8 @@
 # ufmtru
 Sistema para RU da UFMT, fins academicos disciplina APS
+
 Academicos: Gesser Migujel da Paixão | Tiago Arruda | André Sant'Ana
+
 Docente: Tiago Ventura | Universidade Federal de Matogrosso
 
 *Hospedagem: http://paw.ic.ufmt.br/ufmtru
